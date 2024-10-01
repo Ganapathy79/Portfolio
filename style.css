@@ -1,0 +1,307 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    
+   
+    background-color: rgb(186 215 207);
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+   
+}
+.logo{
+    width: 15%;
+    height: 70px;
+    
+    display: flex;
+    
+    align-items: center;
+}
+.nav{
+    width: 30%;
+    height: 70px;
+    
+}
+.nav-links{
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+   
+    list-style-type: none;
+    display: flex;
+}
+
+    /*banner*/
+.banner{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(186 215 207);
+    padding-top:30px;
+    padding-left: 5%;
+    padding-right:5% ;
+    display: flex;
+    align-items: center;
+   
+}
+
+.details{
+    width:60%;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+.t1{
+    font-size: 60px;
+}
+.t2{
+    font-size: 70px;
+    font-weight: 600;
+    color: rgb(36, 43, 104);
+}
+.d{
+    font-size: 20px;
+}
+.call{
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-top: 25px;
+    background-color: rgb(36, 43, 104);
+    color: white;   
+    border-radius: 50px;
+    cursor: pointer;
+    border: 2px solid  rgb(36, 43, 104);
+    transition: 1s;
+}
+.call:hover{
+    background-color: transparent;
+    color: rgb(36, 43, 104);
+    
+}
+
+
+
+.im{
+    width:30%;
+    height: 350px;
+    
+    border-radius: 30px;
+}
+
+
+
+.img{
+    border-radius: 30px;
+    width: 400px;
+    height: 350px;
+}
+
+                      /*servises*/
+
+.ser{
+    width: 100%;
+    padding: 30px 10%;
+   
+
+}   
+.st{
+    font-size: 30px;
+    font-weight: 10;
+
+
+}  
+.sec-ch{
+    width: 100%;
+    padding: 30px 0px;
+ 
+    margin-top: 30px;
+    display: flex;
+    column-gap: 10%;
+   
+
+}
+.s{
+    width: 20%;
+    
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    row-gap: 15px;
+    box-shadow: 0 0 2px gray;
+    
+}  
+.icon{
+    padding: 50px;
+    color: rgb(186 215 207);
+    font-size: 70px;
+    align-self: center;
+}
+.p{
+    font-size: 15px;
+}
+.but2{
+    padding: 10px 25px;
+    background-color: rgb(36, 43, 104);
+    color: white;
+     border: 2px solid rgb(36, 43, 104) ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.but2:hover{
+  
+   background-color: transparent;
+   color: rgb(36, 43, 104);
+
+}  
+li:hover{
+      font-size: 20px;
+      font-weight: 15px;
+      color:white;
+      cursor: pointer;
+}       
+
+  /*Achivement*/
+.achive
+ {
+  padding: 30px 10%;
+  background-color: rgb(232, 245, 241);
+
+ } 
+ .ach{
+    width: 18%;
+    padding: 50px;
+    background-color: rgb(232, 245, 241);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    
+ }
+ .num{
+    font-size: 60px;
+    font-weight: bold;
+ }
+ .tag{
+    font-size: 20px;
+
+ }
+ .coo{
+    column-gap: 2.5%;
+
+
+ }
+  /*quote*/
+
+ .q{
+    width: 100%;
+    height: 450px;
+    
+    
+    background-size: cover;
+    background-image: url('Black\ Minimalist\ Motivation\ Quote\ LinkedIn\ Banner.png');
+ } 
+.overlay{
+    width: 100%;
+    height: 100%;
+    padding: 30px 10%;
+    background-color: rgba(0, 0, 0,.6);
+    display: flex;
+    align-items: center;
+}
+.area{
+
+    width: 100%;
+    padding: 30px 0px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.em{
+    width: 60%;height: 60px;
+    border: 1px solid white;
+    font-size: 18px;
+    text-indent: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+::placeholder{
+    color: white;
+}
+/*client*/
+
+.clients{
+    width: 100%;
+    height: 150px;
+    
+    
+}
+.sec-ch{
+    
+    
+    
+}
+.sec-tit{
+    padding-top: 20px;
+    padding-left: 300px;
+    font-size: 50px;
+}
+.uuu{
+    background-color: white;
+    column-gap: 4%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.client-img{
+    
+    width: 8%;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.client-img:hover{
+filter: grayscale(0%);
+}
+.foot{
+    width: 100%;
+    margin-top: 300px;
+    padding: 30px 10%;
+    font-size: medium;
+    background-color:  rgb(186 215 207);
+    color: white;
+}
+.foot-ch{
+    width: 20%;
+    padding: 20px 20px;
+   
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+  
+
+}
+.foot-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+    align-items: center;
+
+}
+.map{
+
+    width: 46%;
+    padding: 0;
+}
